@@ -1,0 +1,28 @@
+.head{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(182, 24, 24);
+    height: 150vh;
+    color : white;
+}
+.nav-bar{
+    background-color:;
+    height: 10vh;
+    display: flex;
+   flex-direction: row;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+.search-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: black;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+  }

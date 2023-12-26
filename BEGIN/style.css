@@ -1,0 +1,41 @@
+h1{
+    color:red;
+    font-size: 70px;
+    font-family: monospace;
+    
+}
+p{
+    font-size: 70px;
+    color:black
+}
+.my-container{
+    
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    height: 200vh;
+  background-image: url(jana.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   
+
+}
+.glass{
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin: -60px 0 0 --280px;
+   -webkit-transition: -webkit-transform 1s;
+
+}
+.glass:hover{
+    -webkit-transform: rotate(360deg) translateZ(0);
+}
+.glass{
+    height: 500px;
+    width: 100px;
+}
